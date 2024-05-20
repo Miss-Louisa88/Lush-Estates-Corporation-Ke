@@ -1,0 +1,26 @@
+body {
+  background: white;
+}
+.container {
+  max-width: 1200px;
+  margin: 45px auto;
+  padding: 30px;
+  background: aliceblue;
+  border-radius: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main {
+  padding: 60px;
+}
+h1 {
+  color: green;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 16px;
+  font-size: 96px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+}
