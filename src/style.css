@@ -11,6 +11,11 @@ body {
 .header {
   display: flex;
   justify-content: space-evenly;
+  background: green;
+  padding: 30px;
+  color: white;
+  font-weight: bold;
+  max-width: 1000;
 }
 .main {
   padding: 60px;
