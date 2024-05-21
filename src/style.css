@@ -20,12 +20,26 @@ body {
 .main {
   padding: 60px;
 }
-h1 {
+.heading {
   color: green;
   text-align: center;
   margin-top: 0px;
   margin-bottom: 16px;
-  font-size: 96px;
+  font-size: 68px;
   font-weight: 600;
   letter-spacing: -0.025em;
+}
+.tagLine {
+  text-align: center;
+  font-size: 25px;
+  font-weight: ;
+  color: brown;
+  opacity: 5em;
+}
+.runda {
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 80px;
+  margin-top: 40px;
+  border-radius: 6px;
 }
