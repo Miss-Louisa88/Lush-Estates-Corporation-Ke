@@ -1,10 +1,10 @@
 body {
   background: white;
 }
-.container {
+.container-site {
   max-width: 1200px;
   margin: 45px auto;
-  padding: 30px;
+  padding: 80px;
   background: aliceblue;
   border-radius: 10px;
 }
@@ -32,7 +32,7 @@ body {
 .tagLine {
   text-align: center;
   font-size: 25px;
-  font-weight: ;
+  font-weight: 10px;
   color: brown;
   font: 1 em sans-serif;
 }
@@ -42,4 +42,16 @@ body {
   margin-bottom: 80px;
   margin-top: 40px;
   border-radius: 6px;
+}
+.testimonials {
+  display: flex;
+  justify-content: space-between;
+}
+.clientTestimony {
+  position: relative;
+  top: 40px;
+  left: 80px;
+  padding-right: 20px;
+  margin-right: 60px;
+  font-size: larger;
 }
