@@ -55,3 +55,12 @@ body {
   margin-right: 60px;
   font-size: larger;
 }
+.footer {
+  background-color: rgb(198, 226, 226);
+
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+li {
+  list-style: none;
+}
