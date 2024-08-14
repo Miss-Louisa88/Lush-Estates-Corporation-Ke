@@ -76,11 +76,11 @@ li {
 }
 
 .contactButton {
-margin: 0 auto !important;
-display: block !important;
-max-width: 20%;
+  margin: 0 auto !important;
+  display: block !important;
+  max-width: 20%;
 }
-.footerInfo{
+.footerInfo {
   font-size: 22px !important;
 }
 .shortcuts {
@@ -92,19 +92,32 @@ max-width: 20%;
 .shortcuts:hover {
   color: green !important;
 }
-.socialMedia{
+.socialMedia {
   color: green;
+  border-radius: 50%;
+  margin: 30px;
   font-size: 30px;
   margin: 0 5px;
-  
+}
+.socialMedia:hover {
+  color: blue;
 }
 .socials {
-    justify-content: center !important;
+  justify-content: center !important;
 }
-
-///
-
-
-
-4. Edit the form
-5. Test the responsiven
+.callback {
+  background-color: azure;
+  padding: 40px 20px 40px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.formControl {
+  width: 50% !important;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+.clientFeedback {
+  margin-bottom: 60px;
+}
