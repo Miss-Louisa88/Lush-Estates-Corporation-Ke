@@ -57,10 +57,54 @@ body {
 }
 .footer {
   background-color: rgb(198, 226, 226);
-
   padding-top: 80px;
-  padding-bottom: 60px;
+  padding-bottom: 120px;
+  margin-bottom: 20px;
+  margin-top: 80px;
 }
 li {
   list-style: none;
 }
+.testimonials {
+  background-color: azure;
+  padding: 40px 20px 40px 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.feedback {
+  border-radius: 50%;
+}
+
+.contactButton {
+margin: 0 auto !important;
+display: block !important;
+max-width: 20%;
+}
+.footerInfo{
+  font-size: 22px !important;
+}
+.shortcuts {
+  text-decoration: none !important;
+  font-size: 20px;
+  line-height: 1.5;
+  color: brown;
+}
+.shortcuts:hover {
+  color: green !important;
+}
+.socialMedia{
+  color: green;
+  font-size: 30px;
+  margin: 0 5px;
+  
+}
+.socials {
+    justify-content: center !important;
+}
+
+///
+
+
+
+4. Edit the form
+5. Test the responsiven
